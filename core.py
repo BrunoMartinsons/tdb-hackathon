@@ -4,7 +4,7 @@ print()
 print("Welcome...")
 print()
 print("This is an encryption and decryption software...")
-primt()
+print()
 print("We use magic to encrypt our messages...")
 print()
 
