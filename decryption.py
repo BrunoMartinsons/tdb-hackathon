@@ -1,7 +1,7 @@
 # Encryption of message
 def encryption():
     user_input = input(str("Write your message: "))
-    encrypted = 0
+    
     print()
     print("What kind of encryption do you want?")
     print()
@@ -17,9 +17,7 @@ def encryption():
     else:
         print("The input was wrong!")
 
-    print(encrypted)
-
-
+    
 # Decryption method
 def decryption():
     user_choose = (input("What kind of encryption is the message? Is it:\n1. Letter number\n2. Caesar cipher\n"))
@@ -32,7 +30,7 @@ def decryption():
         for num in decrypted_split:
             print(chr(int(num)), end=" ")
 
-    # Caesar encryption
+    # Caesar cipher decryption
     elif user_choose == "2":
         user_input = input(str("Enter the message you want decrypted: "))
         decrypted_msg = ' '
